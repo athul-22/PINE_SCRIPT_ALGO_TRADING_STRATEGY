@@ -1,4 +1,5 @@
 //@version=5
+// NEW CODE
 strategy("My strategy", overlay=true, margin_long=100, margin_short=100)
 
 longCondition = ta.crossover(ta.sma(close, 14), ta.sma(close, 28))
