@@ -15,3 +15,5 @@ if (shortCondition)
 ////////////////////////////////
 if 0 < strategy.closedtrades.profit(strategy.closedtrades - 1) // profit of the last closed trade is positive
     strategy.entry("NET P&L", strategy.long) // entry new trade
+
+///////////////////////////
