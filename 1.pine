@@ -13,6 +13,7 @@ if (shortCondition)
     strategy.entry("SHORT", strategy.short)
 
 
+
 // Here is the key part for you
 ////////////////////////////////
 if 0 < strategy.closedtrades.profit(strategy.closedtrades - 1) // profit of the last closed trade is positive
