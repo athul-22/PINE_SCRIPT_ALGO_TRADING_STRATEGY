@@ -7,7 +7,6 @@ longCondition = ta.crossover(ta.sma(close, 14), ta.sma(close, 28))
 if (longCondition)
     strategy.entry("LONG", strategy.long)
 
-
 shortCondition = ta.crossunder(ta.sma(close, 14), ta.sma(close, 28))
 if (shortCondition)
     strategy.entry("SHORT", strategy.short)
